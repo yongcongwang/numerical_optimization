@@ -86,7 +86,7 @@ int main() {
   /// show image
   cv::namedWindow("g", cv::WINDOW_AUTOSIZE );
   cv::imshow("g", img);
-  cv::imwrite("docs/images/work0.png", img);
+  // cv::imwrite("docs/images/work0.png", img);
   cv::waitKey(0);
 
 }

@@ -15,4 +15,6 @@ foreach(CMAKE ${CMAKES})
 endforeach()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
 add_subdirectory(apps/work0)
+add_subdirectory(apps/work1)
